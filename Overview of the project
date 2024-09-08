@@ -1,0 +1,43 @@
+In today’s fast-paced financial markets, making accurate predictions is crucial for investors and traders alike. 
+Traditional statistical methods often fall short in capturing the complex patterns and dynamics of stock prices.
+
+The stock market is known for being volatile, dynamic, & nonlinear. Accurate stock price prediction is extremely challenging because of multiple factors. 
+But, all of this also means that there’s a lot of data to find patterns in. So, we keep exploring analytics techniques to detect stock market trends. 
+So, they can be analyzed as a sequence of discrete-time data .Despite the volatility, stock prices aren’t just randomly 
+generated numbers.
+
+The basic assumption of any traditional Machine Learning (ML) based model is that all the observations should be independent of each other, meaning there shouldn’t be
+any association between each data record/row. However, in the case of any time series data, each observation is dependent upon past observations. For example, the stock price in
+the market depends upon the past day (or days) prices which generally define their trend. However, there are many other factors as well that define the market prices.
+
+""""Explanation of the Workflow"""
+
+1.Importing and Cleaning data
+2.Split the Data into training
+3.Creating and Training the Mode
+4.Making Predictions
+5.Evaluating and Improving Predictions
+
+1.Importing and Cleaning Data:
+The first step in building a stock price prediction model in Python is to import and clean the data.
+This involves gathering data on the stocks you want to analyze, organizing it in a structured format, 
+and cleaning the data by removing any missing values or outliers..
+There are various sources to get stock price data such as Yahoo Finance, Google Finance,Alpha Vantage, Quandl, and more.
+Once you have the data, you can use Pandas, a powerful data manipulation library,to load and clean the data.
+
+2.Split the Data into Training/Test Sets:
+After cleaning the data, you need to split it into training and testing sets. The training set is used to train the model, 
+while the testing set is used to evaluate the model's performance. You can use the Scikit-learn library to split the data into training and testing sets
+
+3.Creating and Training the Model:
+Next, you need to create a model that can learn patterns in the data and make predictions. There are various models available to predict stock prices, 
+including Linear Regression, ARIMA, LSTM, and more.
+
+4.Making Predictions:
+Once you have trained the model, you can use it to make predictions on the testing set. You can use the predict() function of the model to generate predictions 
+for each time step in the testing set.
+  
+5.Evaluating and Improving Predictions:
+Finally, you need to evaluate the model's performance and identify ways to improve the predictions. You can use metrics such as Mean Squared Error (MSE), 
+Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE) to evaluate the model's performance.
+
