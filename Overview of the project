@@ -40,6 +40,3 @@ for each time step in the testing set.
 5.Evaluating and Improving Predictions:
 Finally, you need to evaluate the model's performance and identify ways to improve the predictions. You can use metrics such as Mean Squared Error (MSE), 
 Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE) to evaluate the model's performance.
-
-![LegalBeverage](https://github.com/user-attachments/assets/f8ebd30b-40b2-4641-a691-5c60440ce355)
-
