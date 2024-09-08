@@ -7,4 +7,3 @@ Time series forecasting (predicting future values based on historical values) ap
 ![image](https://github.com/user-attachments/assets/91810fde-5bf3-47d7-bb92-926e472fb3e6)
 
 Stock price prediction is a crucial aspect of trading and investment decisions.By leveraging Python's powerful libraries such as Pandas, Scikit-learn, and Keras, it's possible to build accurate stock price prediction models that can help traders and investors make informed decisions.
-![image](https://github.com/user-attachments/assets/9a964eb2-5b13-4e54-98df-a142e38c3bdc)
